@@ -1,73 +1,69 @@
-# Welcome to your Lovable project
+MindCanvas
 
-## Project info
+MindCanvas is a lightweight web tool that transforms written stories, scripts, or concepts into detailed visual storyboards. Whether you're crafting a short film, designing a comic, or planning a product ad, MindCanvas helps structure your vision into a clear scene-by-scene outline—no design or scripting experience required.
 
-**URL**: https://lovable.dev/projects/7dd940ba-779c-494a-a418-37570b45e3dd
+✨ Features
+Script-to-Storyboard Conversion
+Breaks any paragraph or story into structured scenes with clarity and flow.
 
-## How can I edit this code?
+Scene Descriptions
+Generates visual overviews of each scene including tone, atmosphere, and key elements.
 
-There are several ways of editing your application.
+Camera & Mood Directions
+Provides suggestions for camera angles, lighting styles, and emotional tone.
 
-**Use Lovable**
+Image Prompt Outlines
+Each scene includes a text prompt that can be used to visualize or generate concept art elsewhere.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7dd940ba-779c-494a-a418-37570b45e3dd) and start prompting.
+Minimal UI
+Focuses on clarity and flow—ideal for quick brainstorming, production planning, or visual prototyping.
 
-Changes made via Lovable will be committed automatically to this repo.
+📁 Use Cases
+Indie filmmakers planning a short film
 
-**Use your preferred IDE**
+Comic creators structuring a visual narrative
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Marketing teams planning ad storyboards
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Writers looking to visualize scenes
 
-Follow these steps:
+Creatives brainstorming concept art or mood boards
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+📦 How to Use
+Paste or write your story or concept into the input field.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Click “Generate Storyboard”.
 
-# Step 3: Install the necessary dependencies.
-npm i
+View the resulting structured breakdown:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Scene summaries
 
-**Edit a file directly in GitHub**
+Visual cues
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Camera & mood directions
 
-**Use GitHub Codespaces**
+Descriptive image prompts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Export or copy your storyboard into your favorite planning tool.
 
-## What technologies are used for this project?
+📌 Example Output
+Scene 1
 
-This project is built with:
+Setting: A dimly lit urban street at night
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Mood: Tense, gritty
 
-## How can I deploy this project?
+Camera: Low-angle shot tracking footsteps
 
-Simply open [Lovable](https://lovable.dev/projects/7dd940ba-779c-494a-a418-37570b45e3dd) and click on Share -> Publish.
+Image Prompt: “Dark alleyway with neon reflections, lone figure walking, moody shadows, cinematic lighting”
 
-## Can I connect a custom domain to my Lovable project?
+…and so on for each scene.
 
-Yes, you can!
+🧩 Extensibility
+MindCanvas is designed to be modular and prompt-driven. You can easily customize:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Number of scenes
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Visual tone (comic, cinematic, animated, etc.)
+
+Output style (slides, lists, cards)
